@@ -73,3 +73,17 @@ logger = logging.getLogger(__name__)
 @app.on_event("shutdown")
 async def shutdown_db_client():
     client.close()
+
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+
+# المسار إلى مجلد build (واجهة React المبنية)
+BUILD_DIR = ROOT_DIR / "build"
+
+# تقديم ملفات static من React (JS, CSS...)
+app.mount("/static", StaticFiles(directory=BUILD_DIR / "static"), name="static")
+
+# تقديم index.html عند زيارة /
+@app.get("/")
+async def serve_react_index():
+    return FileResponse(BUILD_DIR / "index.html")
