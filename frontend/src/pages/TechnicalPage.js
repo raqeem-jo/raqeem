@@ -20,7 +20,7 @@ const TechnicalPage = () => {
       category: 'تطوير الويب',
       level: 'مبتدئ',
       duration: '8 أسابيع',
-      link: '/technical/web-development'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const TechnicalPage = () => {
       category: 'برمجة',
       level: 'مبتدئ',
       duration: '6 أسابيع',
-      link: '/technical/python-basics'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const TechnicalPage = () => {
       category: 'ذكاء اصطناعي',
       level: 'متوسط',
       duration: '10 أسابيع',
-      link: '/technical/ai-applications'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ const TechnicalPage = () => {
       category: 'قواعد بيانات',
       level: 'متوسط',
       duration: '6 أسابيع',
-      link: '/technical/database-design'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ const TechnicalPage = () => {
       category: 'تطوير التطبيقات',
       level: 'متقدم',
       duration: '12 أسبوع',
-      link: '/technical/mobile-apps'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 6,
@@ -70,7 +70,7 @@ const TechnicalPage = () => {
       category: 'أمن معلومات',
       level: 'متوسط',
       duration: '8 أسابيع',
-      link: '/technical/cybersecurity'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 7,
@@ -80,7 +80,7 @@ const TechnicalPage = () => {
       category: 'علم البيانات',
       level: 'متوسط',
       duration: '10 أسابيع',
-      link: '/technical/data-science'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 8,
@@ -90,7 +90,7 @@ const TechnicalPage = () => {
       category: 'تطوير الألعاب',
       level: 'مبتدئ',
       duration: '8 أسابيع',
-      link: '/technical/game-development'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       id: 9,
@@ -100,7 +100,7 @@ const TechnicalPage = () => {
       category: 'حوسبة سحابية',
       level: 'متقدم',
       duration: '10 أسابيع',
-      link: '/technical/cloud-devops'
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     }
   ];
   

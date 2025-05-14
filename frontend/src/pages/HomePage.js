@@ -18,75 +18,56 @@ const HomePage = () => {
     {
       img: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31',
       title: 'تطوير واجهات الويب',
-      description: 'تعلم أساسيات HTML و CSS و JavaScript وكيفية بناء موقع ويب متكامل وتفاعلي',
+      description: ' تعلم اساسيات و يقدمها المدرب البمدع : نورالدين الشنابلة  HTML و CSS و JavaScript وكيفية بناء موقع ويب متكامل وتفاعلي',
       category: 'تطوير الويب',
       level: 'مبتدئ',
-      duration: '8 أسابيع',
+      duration: 'قريبا',
       link: '/technical/web-development'
     },
     {
       img: 'https://images.unsplash.com/photo-1544717305-2782549b5136',
       title: 'أساسيات البرمجة بلغة بايثون',
-      description: 'دورة متكاملة في لغة البرمجة الأكثر طلباً في العالم مع مشاريع عملية',
+      description: ' دورة متكاملة في لغة البرمجة الأكثر طلباً في العالم مع مشاريع عملية تقدمها المدربة : يمنى الغبور',
       category: 'برمجة',
       level: 'مبتدئ',
-      duration: '6 أسابيع',
-      link: '/technical/python-basics'
+      duration: 'قريبا',
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     },
     {
       img: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158',
       title: 'تطبيقات الذكاء الاصطناعي',
-      description: 'استكشف عالم الذكاء الاصطناعي وكيفية تطبيقه في حل المشكلات اليومية',
+      description: '  استكشف عالم الذكاء الاصطناعي وكيفية تطبيقه في حل المشكلات اليومية يقدمها المدرب : بدر الحسبان',
       category: 'ذكاء اصطناعي',
-      level: 'متوسط',
-      duration: '10 أسابيع',
-      link: '/technical/ai-applications'
+      level: 'قريبا',
+      duration: '',
+      link: 'https://media.istockphoto.com/id/492778884/vector/coming-soon-sign-hanging-isolated-on-white-wall.webp?s=2048x2048&w=is&k=20&c=prI1MbERttWelsIYgKMcg93diWehv3u_aIlP6Dkcg1M='
     }
   ];
 
   // Sample data for Achievements
   const featuredAchievements = [
     {
-      img: 'https://images.unsplash.com/photo-1593985817890-c30237efd40a',
-      title: 'هاكاثون الابتكار التقني',
-      date: 'مارس 2023',
-      description: 'تنظيم أول هاكاثون تقني بمشاركة أكثر من 200 مطور ومبتكر من مختلف أنحاء الأردن'
+      img: 'https://nahno-new.s3.eu-west-3.amazonaws.com/ngo/profile-240828173835yUMKE.png',
+      title: ' اطلاق مبادرة رقيم  ',
+      date: 'اغسطس 2024',
+      description: 'من مكتب مؤسسة ولي العهد في محافظة المفرق انطلقت فكرة مبادرة رقيم بعد اخذ صناعة المبادرات الذي تم تنظيمه في المؤسسة'
     },
     {
-      img: 'https://images.unsplash.com/photo-1555967522-37949fc21dcb',
-      title: 'إطلاق منصة رقيم التعليمية',
-      date: 'يناير 2023',
-      description: 'إطلاق المنصة الإلكترونية لتوفير موارد تعليمية مجانية لأكثر من 500 طالب في الأردن'
+      img: 'https://nahno-new.s3.eu-west-3.amazonaws.com/ngo/photo-250404185527a8bjr.png',
+      title: ' جائزة الحسين للعمل التطوعي',
+      date: 'ديسمبر   2024',
+      description: ' مشاركة مبادرة رقيم في جائزة الحسين للعمل التطوعي'
     },
     {
-      img: 'https://images.unsplash.com/photo-1513151233558-d860c5398176',
-      title: 'شراكة مع وزارة التربية والتعليم',
-      date: 'ديسمبر 2022',
-      description: 'توقيع اتفاقية تعاون مع وزارة التربية والتعليم لدعم طلاب الثانوية العامة'
-    }
+      img: 'https://images.unsplash.com/photo-1555967522-37949fc21dchttps://media.istockphoto.com/id/1465801169/vector/3000-three-thousand-icon-on-blue-background-flat-design-with-long-shadow.jpg?s=612x612&w=0&k=20&c=xA0RJz1rEzi-0_AlMOf4QpByoujhI7ziGQIqho3iHSM=b',
+      title: 'الوصول الى اكثر من 3000 مستفيد',
+      date: 'مايو   2025',
+      description: 'مبادرة رقيم وصلت إلى أكثر من 3000 مستفيد من طلاب المدارس، الجامعات، والشباب من كلا الجنسين، من خلال تنفيذ أكثر من 35 تدريبًا وورشة عمل في المجال التقني، بهدف تعزيز المهارات الرقمية وبناء قدرات الشباب لمواكبة التطورات التكنولوجية.'
+    },
+
   ];
 
-  // Sample data for Testimonials
-  const testimonials = [
-    {
-      avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
-      name: 'أحمد الخطيب',
-      role: 'طالب توجيهي',
-      quote: 'ساعدتني منصة رقيم كثيراً في فهم المواد العلمية بطريقة مبسطة، وكان للتمارين والاختبارات التجريبية دور كبير في تحسين أدائي واجتياز امتحانات التوجيهي بتفوق.'
-    },
-    {
-      avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
-      name: 'رنا السعدي',
-      role: 'متطوعة ومدربة',
-      quote: 'التطوع مع رقيم كان تجربة مميزة، أتاحت لي الفرصة لمشاركة خبرتي ومساعدة الآخرين، كما ساهمت في تطوير مهاراتي الشخصية والمهنية من خلال العمل مع فريق رائع.'
-    },
-    {
-      avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
-      name: 'خالد الحمصي',
-      role: 'خريج برامج رقيم التقني',
-      quote: 'التحقت بدورة تطوير الويب، وبعد أقل من 3 أشهر تمكنت من بناء موقعي الخاص والحصول على وظيفة في مجال البرمجة. المنهجية العملية والدعم المستمر كانا سر النجاح.'
-    }
-  ];
+ 
 
   // Image URLs from vision_expert_agent
   const heroImage = 'https://images.unsplash.com/photo-1516534775068-ba3e7458af70';
@@ -102,7 +83,6 @@ const HomePage = () => {
       <TechnicalShowcase courses={featuredCourses} technicalImage={technicalImage} />
       <AchievementsShowcase achievements={featuredAchievements} />
       <VolunteerCTA volunteerImage={volunteerImage} />
-      <Testimonials testimonials={testimonials} />
     </>
   );
 };
