@@ -165,18 +165,6 @@ function App() {
       title: 'مهارات لسوق العمل',
       icon: <TrendingUp className="w-5 h-5" />,
       videos: [
-        {
-          id: 'ra1',
-          title: 'التميز في إدارة العمليات اليوم الأول',
-          isRaqeemContent: true,
-          videoUrl: 'https://www.youtube.com/watch?v=hyoG2Oh7jvM'
-        },
-        {
-          id: 'ra2',
-          title: 'التميز في إدارة العمليات اليوم الثاني',
-          isRaqeemContent: true,
-          videoUrl: 'https://www.youtube.com/watch?v=z39-IvVOZmo&ab_channel=raqeem-%D8%B1%D9%82%D9%8A%D9%85'
-        }
       ]
     },
     'ai': {
