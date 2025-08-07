@@ -166,36 +166,16 @@ function App() {
       icon: <TrendingUp className="w-5 h-5" />,
       videos: [
         {
-          id: 'job1',
-          title: 'كيفية كتابة السيرة الذاتية',
-          isRaqeemContent: true
-        },
-        {
-          id: 'job2',
-          title: 'مهارات المقابلة الشخصية',
-          isRaqeemContent: true
-        },
-        {
-          id: 'job3',
-          title: 'التسويق الشخصي والعلامة التجارية',
-          isRaqeemContent: false
-        },
-        {
-          id: 'job4',
-          title: 'مهارات التواصل في بيئة العمل',
-          isRaqeemContent: true
-        },
-        {
-          id: '689229f89d7ba90013c0a372',
+          id: 'ra1',
           title: 'التميز في إدارة العمليات اليوم الأول',
           isRaqeemContent: true,
-          videoUrl: 'https://zz2d6-7859a6080be3940a0d53b2b84babcc58a639e932.tldv.io/7859a6080be3940a0d53b2b84babcc58a639e932/689229f89d7ba90013c0a372/playlist.m3u8'
+          videoUrl: 'https://www.youtube.com/watch?v=hyoG2Oh7jvM'
         },
         {
-          id: 'IubSRxs6wy2QICTuif8Cjg',
+          id: 'ra2',
           title: 'التميز في إدارة العمليات اليوم الثاني',
           isRaqeemContent: true,
-          videoUrl: 'https://media-files.tldv.io/9d1b6c3e13dc91cac7f3432da2b2e38043de0766fafa60ec112c5bc856e8c801/IubSRxs6wy2QICTuif8Cjg_playlist.m3u8'
+          videoUrl: 'https://www.youtube.com/watch?v=z39-IvVOZmo&ab_channel=raqeem-%D8%B1%D9%82%D9%8A%D9%85'
         }
       ]
     },
@@ -557,11 +537,11 @@ function App() {
                   <div className="flex items-center justify-between text-sm text-gray-500">
                     <span className="flex items-center gap-1">
                       <Clock className="w-4 h-4" />
-                      15 دقيقة
+                     
                     </span>
                     <span className="flex items-center gap-1">
                       <Eye className="w-4 h-4" />
-                      1.2K مشاهدة
+                      
                     </span>
                   </div>
                 </CardContent>
